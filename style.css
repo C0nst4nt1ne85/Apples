@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+.buy_now {
+    position: fixed;
+    top: 0;
+    right:0;
+    margin: 15px 4vw;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.2);
+    border: 0.5px solid #ffffff;
+    border-radius: 10%;
+    padding:5px 15px;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("img/hero.jpg");
+    background-position: 50% 0;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.hero > * {
+    flex: 1 1 100%;
+}
+
+.hero .title {
+    align-self: flex-start;
+    font-size: 55px;
+    padding: 4vh;
+    line-height: 100px;
+    margin: 0;
+    font-weight: 100;
+}
+
+.hero .button {
+    align-self: flex-end;
+    padding: 4vh 10vw;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.button .arrow {
+    max-width: 25px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 30vh;
+    color: #000000;
+    font-size: 35px;
+    padding: 35px;
+}
+
+.quote {
+    color: #000000;
+    margin: auto;
+    width: 100%;
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#ffffff, rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 1)), url("img/adam.jpg");
+}
+
+.quote p {
+    width: 50vw;
+    font-size: 32px;
+}
+
+.quote span {
+    text-align: left;
+    font-size: 15px;
+}
+
+.specs {
+    margin: 15px 0;
+    height: 95vh;
+    color: #000000;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    background-position: 50% 0;
+}
+
+.left {
+    justify-content: flex-end;
+}
+
+.left p {
+    text-align: right;
+}
+
+.specs p {
+    margin:0;
+    max-width: 30vw;
+    flex:1;
+    padding: 35px;
+}
+
+#color {
+    background:linear-gradient(to right, rgba(251, 251, 251, 1) 30vw, rgba(251, 251, 251, 0) 50vw), url("img/color.jpg");
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+#plate {
+    background:linear-gradient(to left, rgba(251, 251, 251, 1) 30vw, rgba(251, 251, 251, 0) 50vw), url("img/plate.jpg");
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+#green{
+    background:linear-gradient(to right, rgba(251, 251, 251, 1) 30vw, rgba(251, 251, 251, 0) 50vw), url("img/green.jpg");
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+#pie {
+    background:linear-gradient(to left, rgba(251, 251, 251, 1) 30vw, rgba(251, 251, 251, 0)50vw), url("img/pie.jpg");
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.buy {
+    min-height: calc(50vh - 15px);
+}
+
+.buy p {
+    flex:1 1 100%;
+}
+
+#snake {
+    flex:1 1 100%;
+    max-width: 50vw;
+    border-radius: 50%;
+}
+
+footer {
+    height: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #000000;
+}
